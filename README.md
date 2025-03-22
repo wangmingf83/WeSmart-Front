@@ -45,7 +45,7 @@
 
 #### 产品优势
 
-<img src="./docs/20250321150727.png" width="300" height="300" alt="描述文字">
+<img src="./docs/20250321150727.png" width="700" height="700" alt="描述文字">
 
 1.  大模型助力，提高竞争力
 2.  系统高度可用，部署灵活高效
@@ -81,4 +81,4 @@ Agent编排
 
 #### 定制开发/技术支持
 
-<img src="./docs/20250321150727.png" width="300" height="300" alt="描述文字">
+<img src="./docs/20250321173421.png" width="700" height="700" alt="描述文字">
