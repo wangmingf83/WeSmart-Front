@@ -1,96 +1,89 @@
-# 微智营前端
+# MicroIntelligence Camp Frontend
 
-### 介绍
-国外的营销触达通道比较单一，主要以EDM为主。国内因为渠道的变化营销场景就复杂很多，当前国内做用户的营销触达主要的场景通道如下：
+### Introduction
+Marketing channels abroad are relatively singular, primarily relying on EDM. In China, due to the diversity of channels, marketing scenarios are much more complex. Currently, the main channels for user marketing outreach in China include:
 
-- 企业微信私聊、社群、朋友圈
-- 微信运营公众号、小程序、视频号
-- 电商运营抖音、快手、淘宝、京东、拼多多
-- 公域运营短信、邮件、APP弹窗、PUSH推送、banner位
-- 其他其他渠道
+- Enterprise WeChat private chats, communities, and朋友圈
+- WeChat official accounts, mini-programs, and video channels
+- E-commerce platforms like Douyin, Kuaishou, Taobao, JD.com, and Pinduoduo
+- Public domain operations such as SMS, email, app pop-ups, PUSH notifications, and banner ads
+- Other channels
 
-虽然国内已经有非常多的 MarTech 公司做出了非常优秀的 SaaS 产品服务，但是国内的市场需求依然没有得到充分满足。主要体现在以下几点：
+Although many MarTech companies in China have developed excellent SaaS products, the market demand is still not fully met. The main issues are:
 
+- **Pain Point** — Enterprises are more concerned about data security, privacy protection, and compliance issues, leading to a strong preference for private deployment.
+- **Pain Point** — The complexity of business scenarios requires integration with full-domain business environments for unified marketing, rather than simply purchasing a set of system tools.
+- **Pain Point** — The need for source code. More and more enterprises are choosing to build their own systems to create marketing systems that better fit their business needs. The main reason behind this is that the standard tools available on the market are disconnected from business needs and lack flexibility for customization.
 
--  **痛**  — 企业更注重客户的数据安全、隐私保护及合规方面存在隐患，私有化部署意愿强烈。
--  **痛**  — 经营场景复杂，需要同全域经营场景打通做一体化营销，而不是单纯的买一套系统工具。
--  **痛**  — 需要源代码，越来越多的企业开始选择自建，以打造出更适合自己业务的营销系统。其背后的主要原因就是市场上直接采购的 SaaS 标准工具与业务脱节，缺乏灵活定制能力。
+Given these pain points, enterprises with some scale have only one path to solve these issues: building their own systems. However, the biggest problem they face when choosing to build their own is:
 
-基于以上的痛点若稍具规模的企业想要解决以上问题，只有自建一条路，但是选择自建碰到最大的问题就是：
+**High Cost and Long Cycle for Building from 0 to 1**
 
- **0-1 自建周期成本高** 
+Developing a complex marketing automation system from scratch is not as simple as it seems. It requires a lot of manpower and resources, and often, results are not visible in the short term, which can easily lead to the project being abandoned. So, what are some good solutions to this problem?
 
-一个复杂的营销自动化系统从 0-1 开发出来并没有想象的那么简单，都需要浪费大量的人力和物力，甚至短期内是看不见什么成果的，很容易导致不了了之。那么有什么好的办法能解决呢？
+### Application Areas of AI Marketing Systems
 
+Suitable for enterprise clients in various industries such as manufacturing, retail, tourism, education, FMCG, and technology.
 
-### AI营销系统的应用领域
+### Product Introduction
+There are very few open-source large model AI marketing automation projects. **MicroIntelligence Camp** is specifically open-sourced in this context to contribute to the digital marketing efforts in China.
 
- 适用于制造业、零售、旅游、教育、快消品、科技等多个行业的企业客户。
+**MicroIntelligence Camp** is based on a **"Prospecting -> Management -> Operation -> Marketing -> Service -> Analysis"** one-stop AI digital marketing engine. It provides standardized functions and basic capabilities, allowing enterprises to quickly build a marketing automation system suitable for their own business, rapidly completing the process from 0 to 1. Moreover, based on open capabilities and source code, enterprises can develop AI marketing systems deeply integrated with their own business.
 
+As a new product in the field, **MicroIntelligence Camp** also needs to move forward step by step. The future development is mainly divided into the following stages:
 
-### 产品介绍
-开源的大模型人工智能营销自动化项目寥寥无几， **微智营**  在此背景下特意开源出来，以为国内数字化营销贡献绵薄之力。
+**Building a Basic Marketing Platform**
 
- **微智营**  基于  **“拓客->管理->运营->营销->服务->分析”**  一站式人工智能数智化营销引擎，通过提供的标准化功能和基础能力，让企业快速搭建适合自己企业的自动化营销系统，快速完成从 0-1 的过程，并且能基于开放的能力和源码，开发深度融合自身业务的AI营销系统。
+At this stage, we have combined current marketing trends and chosen to start with the enterprise WeChat scenario. In this phase, we will provide basic enterprise WeChat marketing functions, retaining flexibility for expansion, allowing developers to quickly develop desired functions based on **MicroIntelligence Camp**.
 
- **微智营**  作为领域的产品新秀，也需要一步一个脚印逐步向前迈进。对未来的发展主要分以下几个阶段：
+**Building Full-Domain Marketing Capabilities**
 
-   **构建基础营销平台** 
+At this stage, we will focus on improving the platform's full-domain marketing capabilities, integrating more marketing scenarios, automation capabilities, etc.
 
-       此阶段我们结合了当下营销的趋势，选择了优先从企业微信场景切入。 在这个阶段我们会提供个比较基础的企业微信营销功能，保留了其灵活的扩展性，便于开发者能够快速基于  **微智营**  开发自己想要的功能。
+**Rapid Iteration of Automation Scenarios**
 
-   **全域营销能力搭建** 
+At this stage, we will quickly build full-domain marketing automation solutions based on scenarios.
 
-       此阶段我们会重点完善平台的全域营销能力，我们会接入更多的营销场景通道、自动化能力等。
+### Product Advantages
 
-   **自动化场景快速迭代** 
+![Description](./docs/20250321150727.png)
 
-       此阶段我们会快速基于场景构建全域营销自动化方案。
+1. Large model assistance to enhance competitiveness
+2. Highly available system, flexible and efficient deployment
+3. Cost-effective R&D, meeting customization needs
+4. Data security and control
+5. Reduced reliance on cloud services and vendor lock-in
 
+### AI Capabilities
 
-### 产品优势
+Currently, the open-source version of **MicroIntelligence Camp** is built based on excellent open-source products like Yudao, supporting large model knowledge bases and AI Agent orchestration for advanced assistants. It supports over 30 AI large models such as DeepSeek, Tongyi Qianwen, and Tencent Hunyuan, enabling intelligent marketing-related capabilities.
 
-<img src="./docs/20250321150727.png" width="500" height="300" alt="描述文字">
+### 12 Major Product Functions — Meeting the Complete Lifecycle of Enterprise AI Marketing
 
-1.  大模型助力，提高竞争力
-2.  系统高度可用，部署灵活高效
-3.  研发降本增效，满足定制需求
-4.  数据安全可控
-5.  降低云服务依赖与供应商绑定
+**1. Large Model Knowledge Base:** A large model-driven information processing system, widely meeting needs in Q&A, translation, creation, and other fields.
 
+**2. Large Model Intelligent Assistant:** Provides precise information retrieval and task execution services.
 
-### AI能力
+**3. Large Model Advanced Assistant:** An RPA assistant orchestrated by large model Agents, combining AI and automation technologies to achieve complex business processes.
 
-目前  **微智营**  开源版基于芋道等优秀开源产品构建，支持大模型知识库、人工智能Agent编排高级助手；大模型方面支持DeepSeek、通义千问、腾讯混元等 30+ AI大模型，实现营销相关能力智能化。
+**4. Channel Management:** Multi-channel support.
 
+**5. Customer Service:** Omni-channel intelligent customer service, flexible allocation, and efficient service.
 
-### 12大产品功能 — 满足企业AI营销完整生命周期
+**6. Customer Management:** Helps enterprises build an efficient customer operation system.
 
- **1.  大模型知识库：** 大模型驱动的信息处理系统，广泛满足问答、翻译、创作等领域；
+**7. Marketing Center:** Builds strategic customer groups for automated and precise marketing.
 
- **2.  大模型智能助手：** 提供精准的信息检索和任务执行服务；
+**8. Lead Generation:** Multi-channel lead generation through live codes, group live codes, public pools, and customer service for precise customer acquisition.
 
- **3.  大模型高级助手：** 大模型Agent编排的RPA助手，结合人工智能与自动化技术，实现复杂业务流程；
+**9. Content Center:** Builds an enterprise's own content library with multi-type materials for one-click use.
 
- **4.  渠道管理：** 多渠道支持；
+**10. Enterprise Risk Control:** Conversation compliance archiving, global risk control for sensitive content.
 
- **5.  客服：** 全渠道智能客服，灵活分配，高效服务；
+**11. Product Management:** Maintains and updates the list of products available for sale, ensuring information accuracy and real-time updates.
 
- **6.  客户管理：** 助力企业搭建高效运营客户体系；
+**12. Order Management:** Records product orders for tracking and recording completed order information.
 
- **7.  营销中心：** 构建策略人群，全程自动精准营销；
+### Custom Development/Technical Support
 
- **8.  引流获客：** 活码、群活码、公海、客服等多渠道引流，实现精准获客；
-
- **9.  内容中心：** 搭建企业自有内容库，多类型素材一键调用；
-
- **10.  企业风控：** 会话合规存档，敏感内容全局风控；
-
- **11.  产品管理：** 维护和更新可供销售的产品清单，确保信息的准确性和实时性；
-
- **12.  订单管理：** 产品订单记录，用于追踪和记录已完成订单的产品信息；
-
-
-### 定制开发/技术支持
-
-<img src="./docs/20250321173421.png" width="700" height="200" alt="描述文字">
+![Description](./docs/20250321173421.png)
