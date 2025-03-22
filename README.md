@@ -45,7 +45,7 @@
 
 #### 产品优势
 
-
+<img src="./docs/20250321150727.png" width="300" height="300" alt="描述文字">
 
 1.  大模型助力，提高竞争力
 2.  系统高度可用，部署灵活高效
@@ -54,13 +54,24 @@
 5.  降低云服务依赖与供应商绑定
 
 
-#### 使用说明
+#### AI能力
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+目前  **微智营**  开源版基于芋道等优秀开源产品构建，支持DeepSeek、通义千问、腾讯混元等 30+ AI大模型，实现营销相关能力智能化。
 
-#### 参与贡献
+
+#### 产品功能
+
+知识库
+
+系统高度可用，部署灵活高效
+
+智能助手
+
+系统高度可用，部署灵活高效
+
+Agent编排
+
+系统高度可用，部署灵活高效
 
 1.  Fork 本仓库
 2.  新建 Feat_xxx 分支
@@ -68,11 +79,6 @@
 4.  新建 Pull Request
 
 
-#### 特技
+#### 定制开发/技术支持
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+<img src="./docs/20250321150727.png" width="300" height="300" alt="描述文字">
