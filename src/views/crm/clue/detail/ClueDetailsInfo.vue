@@ -19,7 +19,7 @@
             {{ clue.areaName }} {{ clue.detailAddress }}
           </el-descriptions-item>
           <el-descriptions-item label="QQ">{{ clue.qq }}</el-descriptions-item>
-          <el-descriptions-item label="微信">{{ clue.wechat }}</el-descriptions-item>
+          <el-descriptions-item label="微信">{{ clue.guitu }}</el-descriptions-item>
           <el-descriptions-item label="客户行业">
             <dict-tag :type="DICT_TYPE.CRM_CUSTOMER_INDUSTRY" :value="clue.industryId" />
           </el-descriptions-item>

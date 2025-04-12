@@ -63,8 +63,8 @@
       </el-row>
       <el-row>
         <el-col :span="12">
-          <el-form-item label="微信" prop="wechat">
-            <el-input v-model="formData.wechat" placeholder="请输入微信" />
+          <el-form-item label="微信" prop="guitu">
+            <el-input v-model="formData.guitu" placeholder="请输入微信" />
           </el-form-item>
         </el-col>
         <el-col :span="12">
@@ -169,7 +169,7 @@ const formData = ref({
   mobile: undefined,
   telephone: undefined,
   qq: undefined,
-  wechat: undefined,
+  guitu: undefined,
   email: undefined,
   areaId: undefined,
   detailAddress: undefined,
@@ -246,7 +246,7 @@ const resetForm = () => {
     mobile: undefined,
     telephone: undefined,
     qq: undefined,
-    wechat: undefined,
+    guitu: undefined,
     email: undefined,
     areaId: undefined,
     detailAddress: undefined,

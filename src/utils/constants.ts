@@ -51,10 +51,10 @@ export const SystemUserSocialTypeEnum = {
     source: 'dingtalk',
     img: 'https://s1.ax1x.com/2022/05/22/OzMDRs.png'
   },
-  WECHAT_ENTERPRISE: {
+  guitu_ENTERPRISE: {
     title: '企业微信',
     type: 30,
-    source: 'wechat_enterprise',
+    source: 'guitu_enterprise',
     img: 'https://s1.ax1x.com/2022/05/22/OzMrzn.png'
   }
 }
@@ -171,7 +171,7 @@ export const PayDisplayModeEnum = {
  * 支付类型枚举
  */
 export const PayType = {
-  WECHAT: 'WECHAT',
+  guitu: 'guitu',
   ALIPAY: 'ALIPAY',
   MOCK: 'MOCK'
 }
@@ -373,7 +373,7 @@ export const BrokerageWithdrawTypeEnum = {
     type: 2,
     name: '银行卡'
   },
-  WECHAT: {
+  guitu: {
     type: 3,
     name: '微信'
   },
