@@ -12,7 +12,7 @@
           <el-descriptions-item label="电话">{{ contact.telephone }}</el-descriptions-item>
           <el-descriptions-item label="邮箱">{{ contact.email }}</el-descriptions-item>
           <el-descriptions-item label="QQ">{{ contact.qq }}</el-descriptions-item>
-          <el-descriptions-item label="微信">{{ contact.wechat }}</el-descriptions-item>
+          <el-descriptions-item label="微信">{{ contact.guitu }}</el-descriptions-item>
           <el-descriptions-item label="地址">
             {{ contact.areaName }} {{ contact.detailAddress }}
           </el-descriptions-item>
