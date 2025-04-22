@@ -907,7 +907,7 @@ export const IconJson = {
     'volume-down',
     'volume-off',
     'volume-up',
-    'wechat',
+    'guitu',
     'weibo',
     'whatsapp',
     'wheelchair',

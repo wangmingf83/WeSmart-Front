@@ -19,7 +19,7 @@
             {{ customer.areaName }} {{ customer.detailAddress }}
           </el-descriptions-item>
           <el-descriptions-item label="QQ">{{ customer.qq }}</el-descriptions-item>
-          <el-descriptions-item label="微信">{{ customer.wechat }}</el-descriptions-item>
+          <el-descriptions-item label="微信">{{ customer.guitu }}</el-descriptions-item>
           <el-descriptions-item label="客户行业">
             <dict-tag :type="DICT_TYPE.CRM_CUSTOMER_INDUSTRY" :value="customer.industryId" />
           </el-descriptions-item>
