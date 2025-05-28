@@ -15,7 +15,7 @@ export interface ContactVO {
   mobile: string // 手机号
   telephone: string // 电话
   qq: string // QQ
-  wechat: string // wechat
+  guitu: string // guitu
   email: string // email
   areaId: number // 所在地
   areaName?: string // 所在地名称
