@@ -37,7 +37,7 @@
     <div class="pay-channel-container">
       <div
         class="box"
-        v-for="channel in channelsWechat"
+        v-for="channel in channelsguitu"
         :key="channel.code"
         @click="submit(channel.code)"
       >
@@ -172,7 +172,7 @@ const channelsAlipay = [
     code: 'alipay_bar'
   }
 ]
-const channelsWechat = [
+const channelsguitu = [
   {
     name: '微信公众号支付',
     icon: svg_wx_pub,

@@ -56,9 +56,9 @@
           @keyup.enter="handleQuery"
         />
       </el-form-item>
-      <el-form-item label="微信" prop="wechat">
+      <el-form-item label="微信" prop="guitu">
         <el-input
-          v-model="queryParams.wechat"
+          v-model="queryParams.guitu"
           class="!w-240px"
           clearable
           placeholder="请输入微信"
@@ -242,7 +242,7 @@ const queryParams = reactive({
   email: undefined,
   customerId: undefined,
   name: undefined,
-  wechat: undefined
+  guitu: undefined
 })
 const queryFormRef = ref() // 搜索的表单
 const exportLoading = ref(false) // 导出的加载中
