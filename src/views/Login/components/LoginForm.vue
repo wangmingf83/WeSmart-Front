@@ -200,7 +200,7 @@ const loginData = reactive({
 })
 
 const socialList = [
-  { icon: 'ant-design:wechat-filled', type: 30 },
+  { icon: 'ant-design:guitu-filled', type: 30 },
   { icon: 'ant-design:dingtalk-circle-filled', type: 20 },
   { icon: 'ant-design:github-filled', type: 0 },
   { icon: 'ant-design:alipay-circle-filled', type: 0 }
