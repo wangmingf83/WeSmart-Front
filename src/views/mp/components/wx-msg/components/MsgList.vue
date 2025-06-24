@@ -28,7 +28,7 @@
 import Msg from './Msg.vue'
 import { formatDate } from '@/utils/formatTime'
 import { User } from '../types'
-import avatarWechat from '@/assets/imgs/wechat.png'
+import avatarguitu from '@/assets/imgs/guitu.png'
 
 defineOptions({ name: 'MsgList' })
 
@@ -44,7 +44,7 @@ enum SendFrom {
 }
 
 const getAvatar = (sendFrom: SendFrom) =>
-  sendFrom === SendFrom.User ? props.user.avatar : avatarWechat
+  sendFrom === SendFrom.User ? props.user.avatar : avatarguitu
 
 const getNickname = (sendFrom: SendFrom) =>
   sendFrom === SendFrom.User ? props.user.nickname : '公众号'
